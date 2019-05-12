@@ -1,5 +1,5 @@
 This is the code for the featurization module.
-To create a feature file, run the featurize script:
+To create a feature file, run the featurize script in the proper folder:
 
 python3 featurize.py <preprocessed tweet file> <words txt file> <save file>
 
