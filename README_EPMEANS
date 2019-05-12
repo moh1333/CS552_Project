@@ -1,0 +1,21 @@
+This is the code to perform both the EP-Means
+approach on one dimensional CDFs and the K-Means
+approach with 2-dimensional probability distributions
+along with the Bhattacharyya distance metric.
+
+Both files were run in the Matlab console. The 
+EP-Means file will output a graph of the controids
+produced. The mesh function can be used to view
+the resulting centroids for the EP-Means_BCdist
+file.
+
+The variable for the reulting centroids for both
+algorithms is centroids. For EP-Means, centroids
+is a K-by-(valid values) matrix, with each row
+being a centroid. For EP-Means_BCdist, centroids
+is a 100-by-232-by-K matrix, with each 2-dimensional
+matrix being a centroid.
+
+This code also used files to read in NPY files. These
+files were found here:
+https://github.com/kwikteam/npy-matlab
